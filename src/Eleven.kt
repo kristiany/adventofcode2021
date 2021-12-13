@@ -109,5 +109,3 @@ private fun posOrNull(maybex: Int, maybey: Int, energy: List<List<Int>>): Pos? {
         xs.getOrNull(maybex)?.let { _ -> Pos(maybex, maybey) }
     }
 }
-
-data class Pos(val x: Int, val y: Int)
